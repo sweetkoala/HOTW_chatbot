@@ -1,0 +1,16 @@
+{
+  "name": "hotw_chatbot",
+  "version": "0.0.1",
+  "description": "A first round with botpress",
+  "main": "index.js",
+  "dependencies": {
+    "botpress": "1.x",
+    "botpress-web": "1.x"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Bages",
+  "license": "Botpress Proprietary License"
+}
