@@ -1,11 +1,17 @@
 {
-  "name": "hotw_chatbot",
+  "name": "sk-chatbot",
   "version": "0.0.1",
   "description": "A first round with botpress",
   "main": "index.js",
+  "repository": "https://github.com/sweetkoala/HOTW_chatbot",
+  "engines": {
+    "node": ">= 8.0"
+  },
   "dependencies": {
     "botpress": "1.x",
-    "botpress-web": "1.x"
+    "botpress-messenger": "^2.2.7",
+    "botpress-web": "1.x",
+    "sqlite3": "^3.1.9"
   },
   "scripts": {
     "start": "botpress start",
